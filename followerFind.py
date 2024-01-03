@@ -12,7 +12,7 @@ bot = Bot()
 u = input("Instagram Username: ")
 p = input("Instagram Password: ")
 
-bot.login(username=u, password=p, ask_for_code=True)
+bot.login(username = u, password = p, ask_for_code = True)
 print("Logged in!")
 
 followers = bot.get_user_followers(u)
